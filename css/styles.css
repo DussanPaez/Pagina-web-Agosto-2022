@@ -38,7 +38,7 @@ body {
 .hero{
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+    background: linear-gradient(180deg, #30353B 0%,#1A1B1F 100%);
 }
 
 .nav__hero{
@@ -68,12 +68,12 @@ body {
 }
 
 .link--active{
-    color: var(--gold1);
+    color: #F4BD76;
     font-weight: 700;
 }
 
 .point{
-    color:  var(--gold2);
+    color:  #f6CD8F;
 }
 
 .hero__main{
@@ -91,11 +91,11 @@ body {
 }
 
 .hero__textos{
-    width: 48%;
+    width: 50%;
 }
 
 .title{
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 300;
     color: #fff;
 }
@@ -118,7 +118,7 @@ body {
 .cta {
     padding: 20px 30px;
     display: inline-block;
-    background: linear-gradient(180deg, #F7CE90 0%, #F48D76 100%);
+    background: linear-gradient(180deg,  #F48D76 0%,#F7CE90 100%);
     text-decoration: none;
     color: #fff;
     font-weight: 600;
@@ -169,7 +169,7 @@ body {
     position: relative;
     text-align: right;
     margin-bottom: 60px;
-    box-shadow: 0 0 6px, var(--color__shadow);
+    box-shadow: 0 0 6px var(--color__shadow); 
 }
 
 .card img{
@@ -177,12 +177,12 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
-    text-align: left;
+    text-align: left;     
 }
 
 .card__texts{
     width: 95%;
-    text-align: left;
+    text-align: justify;
     margin-left: auto;
     padding-right: 25px;
 }
@@ -196,13 +196,14 @@ body {
 
 .card__title {
     font-size: 20px;
-    color: #fff;
+    color: #30553b;
     margin-bottom: 8px;
 }
 
 .card__copy {
     color: var(--gray2);
     margin-bottom: 16px;
+    
 }
 
 .card__button{
@@ -215,10 +216,13 @@ body {
     font-weight: 700;
     text-align: center;
     padding: 12px 0;
+    margin: 0 auto;
 }
 
+/* Projects container */
+
 .card__date{
-    color: var(--gold2);
+    color: #F6CD8F;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 16px;
@@ -256,6 +260,7 @@ body {
     bottom: 15px;
     color: #fff;
     left: 15px;
+    text-align: center;
 }
 
 .background__title{
@@ -279,7 +284,7 @@ body {
 .testimony__card {
     width: 30%;
     height: 500px;
-    background: linear-gradient(180deg, #1A1B1F 0%, #30553B 100%);
+    background: linear-gradient(180deg,#1A1B1F 0%,#30553B 100%);
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
@@ -320,5 +325,149 @@ body {
 .testimony__name{
     font-size: 20px;
     line-height: 28px;
+}
+.testimony__position{
+    color: #FFFFFF80;
+}
+
+.testimony__text {
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.google__logo{
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+.testimony__history {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.testimony__info{
+    width: 70%;
+}
+
+.logo--picture{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center top;
+}
+
+/* Form */
+
+.check{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.check__item{
+    width: 30%;
+    padding-right: 10px;
+    display: flex;
+    border-right: 2px solid #30553B;
+}
+
+.bx-check{
+    background: linear-gradient(180deg, #1A1B1F 0%, #30553B 100%);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 40px;    
+}
+
+.check__number{
+    font-weight: 700;
+}
+
+.check__copy{
+    font-weight: 300;
+}
+
+.newsletter{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 40px;
+    height: auto;
+    font-family: inherit;
+    position: relative;
+    border-radius: 6px;
+}
+
+.newsletter--modifier{
+    width: 80%;
+}
+
+.newsletter__input{
+    width: 100%;
+    height: 100%;
+    padding: 22px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid #1A1B1F;
+}
+
+.newsletter__submit{
+    position: absolute;
+    right: 8px;
+    top: 10%;
+    height: 80%;
+    background: linear-gradient(180deg, #1A1B1F 0%, #30553B 100%);   
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer{
+    background: #f33636;    
+}
+
+.footer_caption{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.title__footer{
+    font-size: 24px;
+}
+
+.download{
+    width: 50%;
+}
+
+.download__app{
+    display: flex;
+}
+
+.download__item{
+    display: flex;
+    padding: 18px 12px;
+    border-radius: 6px;
+    border: 1px solid #30553B;
+    width: 42%;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 16px;
 
 }
