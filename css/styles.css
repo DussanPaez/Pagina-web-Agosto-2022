@@ -106,7 +106,7 @@ body {
 
 .copy{
     font-size: 24px;
-    color: var(--gray);
+    color: #fff;
     text-shadow: var(--shadow) var(--color__shadow);
     margin: 15px 0;
 }
@@ -118,11 +118,11 @@ body {
 .cta {
     padding: 20px 30px;
     display: inline-block;
-    background: linear-gradient(180deg,  #F48D76 0%,#F7CE90 100%);
+    background: #F4BD76;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    box-shadow: var(--shadow) var(--color__shadow);
+    
     border-radius: 6px;
 }
 
@@ -570,5 +570,82 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width:900px) {
+    .mockup {
+        width: 500px;
+        height: auto;
+        margin-left: 30px;
+    }
 
+    .title {
+        font-size: 50px;
+    }
+
+    .copy {
+        font-size: 22px;
+    }
+
+    .cta{
+        padding: 15px 22px;
+    }
+
+    .container-cards{
+        justify-content: space-evenly;
+    }
+
+    .services .card {
+        width: 45%;
+    }
+
+    .background {
+        width: 52%;
+    }
+
+    .card {
+        width: 42%;
+    }
+
+    .testimony-container {
+        justify-content: space-evenly;
+    }
+
+    .testimony__card {
+        width: 45%;
+    }
+
+    .check__item{
+        width: 45%;
+        margin-bottom: 35px;
+    }
+
+    .newsletter {
+        width: 80%;
+    }
+
+    .download {
+        width: 100%;
+    }
+
+    .download__app{
+        justify-content: space-evenly;
+    }
+
+    .download__item {
+        width: 45%;
+        border: 2px solid #000;
+    }
+
+    .get.email {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .socialmedia__icon{
+        font-size: 18px;
+    }
+
+    .socialmedia__legend {
+        font-size: 18px;
+    }
+}
 
